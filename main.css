@@ -1,0 +1,87 @@
+.pages{
+    width: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;
+    margin-top: 20px;  
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(253, 0, 0);
+    }
+    .pages a{
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 24px;
+        color: rgb(255, 0, 0);
+    }
+    .products{
+        background-color: rgb(252, 247, 201);
+    }
+    .product{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .product div{
+        align-content: space-between;
+        background-color: rgb(243, 196, 129);
+        margin-bottom: 10px;
+    }
+    .product div:hover{
+        border-color: rgb(255, 118, 118);
+    }
+    .update-btn{
+        background-color: rgba(21, 145, 25, 0.783);
+        border-radius: 5px;
+        border: none;
+        color: rgb(0, 0, 0);
+    }
+    .product div img{
+        height: 150px;
+    }
+    .product div input{
+        background-color: rgb(247, 231, 109);
+        border-radius: 5px;
+        width: 150px;
+        margin-right: 5px;
+        border: none;
+        color: rgb(203, 161, 108);
+    }
+    
+    .card-price{
+        background-color: rgb(255, 103, 103);
+    }
+    
+    .users{
+      background-color: rgb(242, 218, 121);
+    }
+    .user div{
+      height: 150px;
+    }
+    .user div img{
+     height: 100%;
+    }
+    .goBack-div {
+        width: 300px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 30px;
+        margin-top: 30px;  
+        display: flex;
+        text-align: center;
+        border-radius: 10px;
+        border: 3px solid rgb(255, 0, 0);
+    }
+    .goBack-div a{
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 24px;
+        color: rgb(255, 0, 0);
+    }
+    
+    
